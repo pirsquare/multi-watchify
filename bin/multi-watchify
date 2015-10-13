@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var MultiWatchify = require('../lib/multi-watchify');
+
+program
+  .option('-i, --indir <dir>', 'Input directory')
+  .option('-o, --outdir <dir>', 'Output directory')
+  .option('-s, --sourcemaps', 'Enable source maps')
+  .parse(process.argv);
+
+
+var opts = {
+  indir: program.indir,
+  outdir: program.outdir,
+  sourcemaps: program.sourcemaps
+}
+
+var multiWatchify = new MultiWatchify(opts);
+multiWatchify.process();

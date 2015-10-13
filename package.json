@@ -1,0 +1,26 @@
+{
+  "name": "multi-watchify",
+  "version": "0.1.0",
+  "description": "Run watchify on multiple files",
+  "keywords": [
+    "watchify",
+    "browserify",
+    "multiple",
+    "files"
+  ],
+  "author": "Ryan Liao <pirsquare.ryan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirsquare/multi-watchify.git"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "browserify": "^11.2.0",
+    "commander": "^2.8.1",
+    "mksubdir": "^0.1.0",
+    "watchify": "^3.4.0"
+  }
+}
