@@ -15,6 +15,7 @@
     "url": "https://github.com/pirsquare/multi-watchify.git"
   },
   "main": "index.js",
+  "bin": "./bin/multi-watchify",
   "scripts": {},
   "devDependencies": {},
   "dependencies": {
